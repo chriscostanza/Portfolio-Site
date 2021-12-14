@@ -27,28 +27,36 @@ header{
     display: flex;
     flex-direction: column;
 }
+
 h1 a {
     text-decoration: none;
     color: #424B54;
     transition: 0.3s;
 }
 
-header ul {
+nav ul {
     text-align: center;
     padding: 0;
-    margin: 2em 0 2em 0;
+    margin: 0;
 }
 
-header li {
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 2em 0 2em 0;
+}
+
+nav li {
     display: inline;
 }
 
-header li a {
+nav li a {
     text-decoration: none;
     font-weight: 300;
     font-size: 1.5em;
     color: #424B54;
-    margin: 1.5em;
+    margin: 1.5em 2em 1.5em 2em;
 }
 
 header a:hover {
