@@ -74,12 +74,11 @@ button:hover {
     font-weight: 400;
     font-size: 8em;
     color: #424B54;
-    margin: 0;
-
+    margin: 0 0 0.4em 0;
 }
 
 .portion {
-    margin: 4em auto 0 auto;
+    margin: 3em auto 0 auto;
     width: 90%;
     display: flex;
     flex-direction: row;
