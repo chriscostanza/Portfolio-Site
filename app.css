@@ -148,23 +148,23 @@ footer {
     margin: 6em auto;
 }
 
-#contact ul {
+#contact p {
     text-align: center;
     list-style-type: none;
     line-height: 4em;
 }
 
-#contact li a {
+#contact p a {
     font-family: "Roboto";
     text-decoration: none;
     color: white;
     margin: 0 auto;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-size: 2em;
     font-weight: 100;
 }
 
-#contact li a:hover {
+#contact a:hover {
     color: #A53F2B;
 }
 
