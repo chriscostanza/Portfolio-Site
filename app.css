@@ -5,6 +5,10 @@ body {
     font-family: roboto;
     font-weight: 300;
     background-color: #BAC7CA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 h1 {
@@ -23,6 +27,7 @@ header h2 {
     letter-spacing: 0.85em;
 }
 header{
+    width: 100%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -120,6 +125,7 @@ button:hover {
     color: white;
     letter-spacing: 1em;
     line-height: 5em;
+    text-align: center;
 }
 
 .fab {
@@ -159,7 +165,6 @@ footer {
     text-decoration: none;
     color: white;
     margin: 0 auto;
-    font-size: 1.3em;
     font-size: 2em;
     font-weight: 100;
 }
@@ -170,4 +175,76 @@ footer {
 
 #contactlink {
     transition: 0s;
+}
+
+@media (max-width: 1300px) {
+    #contact p a {
+        font-size: 1.5em;    
+    }
+    .portion {
+        margin: 1.75em auto 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #bio {
+        font-size: 1.2em;
+    }
+    #contact p a {
+        font-size: 1em;    
+    }
+
+    .portion h2 {
+        font-size: 6em;
+    }
+    h1 {
+        font-size: 4em;
+    }
+    header h2 {
+        font-size: 1.3em;
+        letter-spacing: 0.5em;
+    }
+    .portion {
+        margin: 0 auto 0 auto;
+    }
+    #languages {
+        font-size: 1em;
+    }
+    #contact p {
+        line-height: 3em;
+    }
+}
+
+@media (max-width: 480px) {
+    #contact p a {
+        font-size: 0.7em;    
+    }
+    .portion h2 {
+        font-size: 3em;
+        margin: 0 0 0.3em 0;
+    }
+    .portion {
+        margin: 0 auto 0 auto;
+    }
+    h1 {
+        font-size: 2.8em;
+    }
+    nav {
+        padding: 0.5em 0 0.5em 0;
+    }
+    header h2 {
+        font-size: 0.9em;
+        font-weight: 300;
+        letter-spacing: 0.5em;
+        margin: 0.1em 0 0.6em 0;
+    }
+    nav ul li {
+        font-size: 0.7em;
+    }
+    #languages {
+        font-size: 0.7em;
+    }
+    #contact p {
+        line-height: 1.5em;
+    }
 }
